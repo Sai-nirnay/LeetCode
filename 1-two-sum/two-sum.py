@@ -6,5 +6,3 @@ class Solution:
                 # If they add up to the target, return the indices immediately
                 if nums[i] + nums[j] == target:
                     return [i, j]
-
-
